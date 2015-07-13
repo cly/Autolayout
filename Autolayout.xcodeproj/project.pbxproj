@@ -13,6 +13,7 @@
 		2BACB4431B534A1000D5CC76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BACB4421B534A1000D5CC76 /* Images.xcassets */; };
 		2BACB4461B534A1000D5CC76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BACB4441B534A1000D5CC76 /* LaunchScreen.xib */; };
 		2BACB4521B534A1000D5CC76 /* AutolayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BACB4511B534A1000D5CC76 /* AutolayoutTests.swift */; };
+		2BACB45C1B53518700D5CC76 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BACB45B1B53518700D5CC76 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2BACB44B1B534A1000D5CC76 /* AutolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BACB4501B534A1000D5CC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BACB4511B534A1000D5CC76 /* AutolayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutTests.swift; sourceTree = "<group>"; };
+		2BACB45B1B53518700D5CC76 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,10 @@
 		2BACB4381B534A1000D5CC76 /* Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				2BACB43B1B534A1000D5CC76 /* AppDelegate.swift */,
 				2BACB43D1B534A1000D5CC76 /* ViewController.swift */,
 				2BACB43F1B534A1000D5CC76 /* Main.storyboard */,
+				2BACB45B1B53518700D5CC76 /* User.swift */,
 				2BACB4421B534A1000D5CC76 /* Images.xcassets */,
-				2BACB4441B534A1000D5CC76 /* LaunchScreen.xib */,
 				2BACB4391B534A1000D5CC76 /* Supporting Files */,
 			);
 			path = Autolayout;
@@ -90,6 +91,8 @@
 		2BACB4391B534A1000D5CC76 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BACB4441B534A1000D5CC76 /* LaunchScreen.xib */,
+				2BACB43B1B534A1000D5CC76 /* AppDelegate.swift */,
 				2BACB43A1B534A1000D5CC76 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -214,6 +217,7 @@
 			files = (
 				2BACB43E1B534A1000D5CC76 /* ViewController.swift in Sources */,
 				2BACB43C1B534A1000D5CC76 /* AppDelegate.swift in Sources */,
+				2BACB45C1B53518700D5CC76 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
